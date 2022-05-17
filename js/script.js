@@ -3,8 +3,6 @@
         console.log("Hello, developers!");
     }
 
-    welcome();
-    
     const onChangeCurrencyClick = (event) => {
         event.preventDefault();
         let pln = plnRate.value;
