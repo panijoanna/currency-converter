@@ -13,6 +13,11 @@ html {
   font-weight: 300;
   line-height: 1.5;
   font-size: 16px;
-  background-color: #675afe;
   margin: 0px auto;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
 }
