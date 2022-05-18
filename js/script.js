@@ -3,7 +3,7 @@
         console.log("Hello, developers!");
     }
 
-    const onChangeCurrencyClick = (event) => {
+    const onFormSubmit = (event) => {
         event.preventDefault();
         const pln = plnRate.value;
     
@@ -15,6 +15,6 @@
     const currencyRate = document.querySelector(".js-currency");
     const formElement = document.querySelector(".js-form");
     
-    formElement.addEventListener("submit", onChangeCurrencyClick);
+    formElement.addEventListener("submit", onFormSubmit);
     welcome();
 }
