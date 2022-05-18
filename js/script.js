@@ -5,15 +5,15 @@
 
     const onChangeCurrencyClick = (event) => {
         event.preventDefault();
-        let pln = plnRate.value;
+        const pln = plnRate.value;
     
-        let convert = pln * 4.71;
+        const convert = pln * 4.71;
         currencyRate.value = convert.toFixed(2);
     };
     
-    let plnRate = document.querySelector(".js-pln");
-    let currencyRate = document.querySelector(".js-currency");
-    let formElement = document.querySelector(".js-form")
+    const plnRate = document.querySelector(".js-pln");
+    const currencyRate = document.querySelector(".js-currency");
+    const formElement = document.querySelector(".js-form");
     
     formElement.addEventListener("submit", onChangeCurrencyClick);
     welcome();
