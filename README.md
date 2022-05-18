@@ -24,4 +24,4 @@ In this project, I created a currency-converter.
 3. Normalize.css
 4. GIT
 5. Responsive web design
-6. Typohraphy
+6. Typography
