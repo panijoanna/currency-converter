@@ -16,7 +16,7 @@ In this project, I created a currency-converter.
 ## Technologies
 1. HTML (BEM, sections, SEO, form, form validation)
 2. CSS (Box model)
-3. JavaScript (Features of ES6, basic math, variables, forms event)
+3. JavaScript (Features of ES6, arrow functions, const keywords, basic math)
 
 **Other**
 1. Terminal
