@@ -5,11 +5,11 @@
 
     const onFormSubmit = (event) => {
         event.preventDefault();
-        const plnRate = document.querySelector(".js-pln");
+        const eurRate = document.querySelector(".js-eur");
         const currencyRate = document.querySelector(".js-currency");
-        const pln = plnRate.value;
+        const eur = eurRate.value;
 
-        const convert = pln * 4.71;
+        const convert = eur * 4.71;
         currencyRate.value = convert.toFixed(2);
     };
 
