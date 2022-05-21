@@ -13,7 +13,7 @@ In this project, I created a currency-converter.
 3. Click the button: Przelicz walutę
 4. Your result will be shown in the input below
 
-![animationgif](https://user-images.githubusercontent.com/105354955/169648219-865a3c0b-4cca-42ff-97c4-e7a1f1a8b22e.gif)
+![animacja](https://user-images.githubusercontent.com/105354955/169648278-4f2119d5-85d7-47b2-a0f8-e7423098c761.gif)
 
 ## Technologies
 1. HTML (BEM, sections, SEO, form, form validation)
