@@ -12,8 +12,8 @@ In this project, I created a currency-converter.
 2. Enter value in the input: Złoty
 3. Click the button: Przelicz walutę
 4. Your result will be shown in the input below
-![Alt Text](https://imgflip.com/gif/6gzgr4)
 
+![Animation](https://user-images.githubusercontent.com/105354955/169648151-3df073c1-6725-456c-85e6-b96284cc8d39.gif)
 
 ## Technologies
 1. HTML (BEM, sections, SEO, form, form validation)
