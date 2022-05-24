@@ -1,24 +1,32 @@
 {
-    const welcome = () => {
-        console.log("Hello, developers!");
-    }
+    const formElement = document.querySelector(".js-form");
+    const amountElement = document.querySelector(".js-amount");
+    const resultElement = document.querySelector(".js-result");
+    const currencyElement = document.querySelector(".js-currency");
 
-    const onFormSubmit = (event) => {
+    const rateEUR = 4.61;
+    const rateGBP = 5.45;
+    const rateUSD = 4.33;
+
+    formElement.addEventListener("submit", (event) => {
         event.preventDefault();
-        const eurRate = document.querySelector(".js-eur");
-        const currencyRate = document.querySelector(".js-currency");
-        const eur = eurRate.value;
 
-        const convert = eur * 4.71;
-        currencyRate.value = convert.toFixed(2);
-    };
+        const currency = currencyElement.value;
+        const amount = amountElement.value;
 
-    const init = () => {
-        const formElement = document.querySelector(".js-form");
-        formElement.addEventListener("submit", onFormSubmit);
-        
-        welcome();
-    };
+        switch (currency) {
+            case "EUR":
+                result = amount / rateEUR;
+                break;
+                case "GBP":
+                    result = amount / rateGBP;
+                    break;
+                    case "USD":
+                        result = amount / rateUSD;
+                        break;
+        }
 
-    init();
+        resultElement.value = result.toFixed(2);
+    });
+
 }
