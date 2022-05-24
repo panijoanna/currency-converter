@@ -35,24 +35,31 @@
                 <p>
                     <label>
                         <span class="form__labelText">
-                            Euro*:
+                            Kwota w zł*:
                         </span>
-                        <input class="form__field js-eur" required type="number" name="kwotaEuro" step="0.01" min="1"
+                        <input class="form__field js-amount" required type="number" name="kwota" step="0.01" min="1"
                             max="1000000000">
                     </label>
                 </p>
                 <p>
                     <label>
                         <span class="form__labelText">
-                            Złoty:
+                            Wynik:
                         </span>
-                        <input class="form__field js-currency" readonly type="number" name="kwotaZloty" step="0.01"
+                        <input class="form__field js-result" readonly type="number" name="wynik" step="0.01"
                             min="1" max="1000000000">
                     </label>
                 </p>
                 <p class="form__paragraph">
                     * - pole obowiązkowe
                 </p>
+                <label>
+                    <select class="form__option js-currency">
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">Funt brytyjski</option>
+                        <option value="USD">Dolar amerykański</option>
+                    </select>
+                </label>
                 <button class="form__button js-submit">Przelicz walutę</button>
             </fieldset>
         </form>
