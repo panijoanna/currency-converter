@@ -1,4 +1,8 @@
 {
+    const welcome = () => {
+console.log("Hello, developers!");
+    }
+
     const formElement = document.querySelector(".js-form");
     const amountElement = document.querySelector(".js-amount");
     const resultElement = document.querySelector(".js-result");
@@ -28,5 +32,5 @@
 
         resultElement.value = result.toFixed(2);
     });
-
+welcome();
 }
