@@ -29,6 +29,7 @@
         const amount = amountElement.value;
 
         const resultElement = document.querySelector(".js-result");
+        let result = calculateResult(currency, amount);
         resultElement.value = result.toFixed(2);
     };
 
