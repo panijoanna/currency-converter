@@ -36,9 +36,10 @@
     const init = () => {
         welcome();
         const formElement = document.querySelector(".js-form");
+
         formElement.addEventListener("submit", (event) => {
             event.preventDefault();
-            calculateResult();
+            insertResult();
         });
     }
     
