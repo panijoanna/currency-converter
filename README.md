@@ -1,4 +1,4 @@
-# Currency-converter
+# 💲Currency-converter💲
 
 ## Demo
 Here is my demo:
@@ -20,7 +20,7 @@ In this project, I created a currency-converter.
 ## Technologies
 1. HTML (BEM, sections, SEO, form, form validation)
 2. CSS (Box model)
-3. JavaScript (Features of ES6, arrow functions, const keywords, basic math)
+3. JavaScript (Features of ES6, arrow functions, const and let keywords, basic math, switch)
 
 **Other**
 1. Terminal
