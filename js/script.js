@@ -10,14 +10,11 @@
 
         switch (currency) {
             case "EUR":
-                result = amount / rateEUR;
-                break;
+                return amount / rateEUR;
             case "GBP":
-                result = amount / rateGBP;
-                break;
+                return amount / rateGBP;
             case "USD":
-                result = amount / rateUSD;
-                break;
+                return amount / rateUSD;
         }
     };
 
