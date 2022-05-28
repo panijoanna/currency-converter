@@ -3,17 +3,10 @@
         console.log("Hello, developers!");
     };
 
-    const calculateResult = () => {
-        const amountElement = document.querySelector(".js-amount");
-        const resultElement = document.querySelector(".js-result");
-        const currencyElement = document.querySelector(".js-currency");
-
+    const calculateResult = (currency, amount) => {
         const rateEUR = 4.61;
         const rateGBP = 5.45;
         const rateUSD = 4.33;
-
-        const currency = currencyElement.value;
-        const amount = amountElement.value;
 
         switch (currency) {
             case "EUR":
@@ -26,9 +19,17 @@
                 result = amount / rateUSD;
                 break;
         }
+    };
 
+    const insertResult = () => {
+        const amountElement = document.querySelector(".js-amount");
+        const currencyElement = document.querySelector(".js-currency");
+
+        const currency = currencyElement.value;
+        const amount = amountElement.value;
+
+        const resultElement = document.querySelector(".js-result");
         resultElement.value = result.toFixed(2);
-
     };
 
     const init = () => {
