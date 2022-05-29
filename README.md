@@ -8,10 +8,9 @@ Here is my demo:
 https://panijoanna.github.io/currency-converter/
 
 ## Technologies 🛠
-1. HTML (BEM, sections, SEO, form, form validation)
-2. CSS (Box model)
-3. JavaScript (Features of ES6, arrow functions, const and let keywords, basic math, switch)
-4. Responsive web design
+1. HTML (semantic, SEO basis, forms and validation, best practices, accessibility)
+2. CSS (box model, responsive design)
+3. JavaScript (features of ES6, arrow functions, const and let keywords, basic math, switch)
 5. GIT
 
 ## Instruction ✔️
