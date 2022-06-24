@@ -1,13 +1,19 @@
-# Currency-converter
+# 💲Currency-converter💲
 
-## Demo
+## Introduction ✔️
+In this project, I created a currency-converter. 
+
+## Demo ✔️
 Here is my demo:
 https://panijoanna.github.io/currency-converter/
 
-## Introduction
-In this project, I created a currency-converter.
+## Technologies 🛠
+1. HTML (semantic, SEO basis, forms and validation, best practices, accessibility)
+2. CSS (box model, responsive design)
+3. JavaScript (features of ES6, arrow functions, const and let keywords, basic math, switch)
+5. GIT
 
-## Instruction
+## Instruction ✔️
 1. Open the demo
 2. Enter the value in the input: Kwota w zł
 3. Choose your currency
@@ -17,15 +23,3 @@ In this project, I created a currency-converter.
 ![animacjaKantor](https://user-images.githubusercontent.com/105354955/170208421-18637a87-4951-4c2d-a26e-950b2f153286.gif)
 
 
-## Technologies
-1. HTML (BEM, sections, SEO, form, form validation)
-2. CSS (Box model)
-3. JavaScript (Features of ES6, arrow functions, const keywords, basic math)
-
-**Other**
-1. Terminal
-2. HTML validator
-3. Normalize.css
-4. GIT
-5. Responsive web design
-6. Typography
