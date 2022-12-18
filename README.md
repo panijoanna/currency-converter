@@ -1,7 +1,7 @@
 ## 📁 Currency-converter 💵
 
 ## ✅ Introduction 
-In this project, I created a currency-converter. 
+In this project, I created a currency-converter with several currencies. 
 
 ## ✅ Demo 
 Here is my demo:
@@ -11,7 +11,7 @@ https://panijoanna.github.io/currency-converter/
 1. HTML (semantic, SEO basis, forms and validation, best practices, accessibility)
 2. CSS (box model, responsive design)
 3. JavaScript/ES6 (features of ES6, arrow functions, const and let keywords, basic math, switch, toFixed)
-5. GIT
+5. GIT (basic Git version control system commands)
 
 ## ✅ Instruction 
 1. Open the demo
