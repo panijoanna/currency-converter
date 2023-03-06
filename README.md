@@ -1,19 +1,20 @@
-## 📁 Currency-converter 💵
+## 📁 Currency-converter | Javascript Es6 | Vanilla JS
 
-## ✅ Introduction 
+### Description
 In this project, I created a currency-converter with several currencies. 
 
-## ✅ Demo 
-Here is my demo:
+### Demo 
 https://panijoanna.github.io/currency-converter/
 
-## ✅ Technologies 🛠
+### Tech stack
+[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
+> More details about tech:
 1. HTML (semantic, SEO basis, forms and validation, best practices, accessibility)
 2. CSS (box model, responsive design)
 3. JavaScript/ES6 (features of ES6, arrow functions, const and let keywords, basic math, switch, toFixed)
 5. GIT (basic Git version control system commands)
 
-## ✅ Instruction 
+### Preview 
 1. Open the demo
 2. Enter the value in the input: Kwota w zł
 3. Choose your currency
