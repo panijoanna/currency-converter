@@ -1,4 +1,4 @@
-## 📁 Currency-converter | Javascript Es6 | Vanilla JS
+## 📁 Currency-converter | Javascript ES6 | Vanilla JS
 
 ### Description
 In this project, I created a currency-converter with several currencies. 
