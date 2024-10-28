@@ -3,11 +3,16 @@
 ### Description
 In this project, I created a currency-converter with several currencies. 
 
-### Demo 
-https://panijoanna.github.io/currency-converter/
+🔗 https://panijoanna.github.io/currency-converter/
 
-### Tech stack
-[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
+#### Tech stack:
+```
+HTML5
+CSS3
+JavaScript ES6+
+```
+
+
 > More details about tech:
 1. HTML (semantic, SEO basis, forms and validation, best practices, accessibility)
 2. CSS (box model, responsive design)
